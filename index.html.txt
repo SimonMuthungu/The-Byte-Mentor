@@ -16,7 +16,9 @@
       <input class="in-el"placeholder="example@provider.com" type="email" id="email" required>
       </label><label id="number-label" > Enter you're phone number:
       <input class="in-el" placeholder="1234" type="number" id="number" min=1 max=200></label>
-    </fieldset><fieldset class="options">
+    </fieldset>
+    
+    <fieldset class="options">
       <legend>
     <label>Select type:
       <select id="dropdown">
@@ -27,18 +29,20 @@
     </label>
     </legend>
     <label>
-      <input class="dots" type="radio" name="radio-button" value="value">radio 1 here
-      <input class="dots" type="radio" name="radio-button" value="value">radio 2 here
+      <input class="dots" type="radio" name="radio-button" value="value">Male
+      <input class="dots" type="radio" name="radio-button" value="value">Female
     </label></fieldset>
+
+
     <fieldset>
     <label>
-      <input type="checkbox" value="check" class="dots">
-      <input type="checkbox" value="check1" class="dots">
-      <input type="checkbox" value="check2" class="dots">
+      <input type="checkbox" value="check" class="dots">Employed
+      <input type="checkbox" value="check1" class="dots">Business Owner
+      <input type="checkbox" value="check2" class="dots">Unemployed
     </label>
   </fieldset><fieldset>
-    <label>Other comments:
-      <textarea placeholder="any other words" class="in-el"></textarea>
+    <label>How did you know about us:
+      <textarea placeholder="I heard saw you at ..." class="in-el"></textarea>
     </label>
     <button type="submit" id="submit" class="submit">Submit
       </fieldset>
