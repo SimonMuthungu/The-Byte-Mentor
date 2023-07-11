@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="styles.css">
+    <title> Fcc
+    </title>
+  </head>
+  <body>
+    <h1 id="title">Welcome, we're glad to have you here...</h1>
+    <p id="description">Go ahead, let us know about you:</p>
+    <form id="survey-form" action="submit">
+    <fieldset>
+      <label id="name-label">Enter your name:
+      <input class="in-el"placeholder="Simon Muthungu" type="text" id="name" required>
+      </label>
+      <label id="email-label" >Enter your email:
+      <input class="in-el"placeholder="example@provider.com" type="email" id="email" required>
+      </label><label id="number-label" > Enter you're phone number:
+      <input class="in-el" placeholder="1234" type="number" id="number" min=1 max=200></label>
+    </fieldset><fieldset class="options">
+      <legend>
+    <label>Select type:
+      <select id="dropdown">
+        <option>Select option</option>
+        <option>Married</option>
+        <option>Single</option>
+      </select>
+    </label>
+    </legend>
+    <label>
+      <input class="dots" type="radio" name="radio-button" value="value">radio 1 here
+      <input class="dots" type="radio" name="radio-button" value="value">radio 2 here
+    </label></fieldset>
+    <fieldset>
+    <label>
+      <input type="checkbox" value="check" class="dots">
+      <input type="checkbox" value="check1" class="dots">
+      <input type="checkbox" value="check2" class="dots">
+    </label>
+  </fieldset><fieldset>
+    <label>Other comments:
+      <textarea placeholder="any other words" class="in-el"></textarea>
+    </label>
+    <button type="submit" id="submit" class="submit">Submit
+      </fieldset>
+    </form>
+  </body>
+</html>
