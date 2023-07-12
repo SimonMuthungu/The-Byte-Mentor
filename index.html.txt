@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1 id="title">Welcome, we're glad to have you here...</h1>
-    <p id="description">Go ahead, let us know about you:</p>
+    <p id="description">Go ahead, we want to know about you:</p>
     <form id="survey-form" action="submit">
     <fieldset>
       <label id="name-label">Enter your name:
@@ -20,7 +20,7 @@
     
     <fieldset class="options">
       <legend>
-    <label>Select type:
+    <label>What about youre relationship?
       <select id="dropdown">
         <option>Select option</option>
         <option>Married</option>
