@@ -22,27 +22,25 @@
       <legend>
     <label>What about youre relationship?
       <select id="dropdown">
-        <option>Select option</option>
+        <option class="option">Select option</option>
         <option>Married</option>
         <option>Single</option>
       </select>
     </label>
     </legend>
-    <label>
+    <label class="occupation"> Tell us your gender please: 
       <input class="dots" type="radio" name="radio-button" value="value">Male
       <input class="dots" type="radio" name="radio-button" value="value">Female
-    </label></fieldset>
+    </label>
 
-
-    <fieldset>
-    <label>
+    <label class="occupation"> What about your occupation?
       <input type="checkbox" value="check" class="dots">Employed
       <input type="checkbox" value="check1" class="dots">Business Owner
       <input type="checkbox" value="check2" class="dots">Unemployed
     </label>
   </fieldset><fieldset>
     <label>How did you know about us:
-      <textarea placeholder="I heard saw you at ..." class="in-el"></textarea>
+      <textarea placeholder="I heard/saw you at ..." class="in-el"></textarea>
     </label>
     <button type="submit" id="submit" class="submit">Submit
       </fieldset>

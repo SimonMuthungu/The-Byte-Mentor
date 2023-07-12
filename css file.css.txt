@@ -4,7 +4,11 @@ form{
 }
 .options{
   display: block;
-  margin: 5px
+  margin: 10px
+}
+.occupation {
+  display: block;
+  margin-top: 20px
 }
 textarea{
   margin: 5px
@@ -25,7 +29,7 @@ fieldset{
   border: none
 }
 .dots{
-  display: block
+  display: inline;
 }
 body{
   height: 100vh;
