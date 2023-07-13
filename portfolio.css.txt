@@ -1,0 +1,32 @@
+#welcome-section {
+  background-color: lightblue;
+  height: 100vh;
+  text-align: center;
+}
+#desc {
+  color: DarkSlateGrey
+}
+.projects {
+  background-color: SandyBrown;
+  height: 500px;
+  text-align: center;
+}
+.bottom {
+  background-color: Darkcyan;
+  height: 400px;
+  border-bottom: 5px;
+  text-align: center;
+
+}
+footer {
+  background-color: Olivedrab;
+  height: 100px
+}
+#navbar {
+  position: fixed;
+  top: 10;
+  right: 10
+}
+@media (min-width: 500px) {
+  
+}

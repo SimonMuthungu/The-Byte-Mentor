@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <header id="welcome-section"><h1>Hey, I'm Simon</h1><h2><i id="desc">I am a full stack dev</i></h2>
+    <nav id="navbar">
+      <a href="#projects">Projects</a>
+    </nav>
+    </header>
+    <main>
+      <div class="projects"><h2>These are some of my projects</h2>
+        <div id="projects">
+          <a href="">Projects </a>
+          <div class="project-tile">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project"/>
+          </div>
+        </div>
+        <a href="">Show all </a>
+      </div>
+      <div class="bottom">
+        <h1>Let's Work Together...</h1>
+      <h3><i>How do you take your coffee?</i></h3>
+      <div class="links">
+        <a name="facebook"/>Facebook</a>
+        <a name="Github" id="profile-link" href="https://github.com/SimonMuthungu" target="_blank"/>Github</a>
+        <a name="Twitter"/>Twitter</a>
+        <a name="mail"/>Send @ mail</a>
+        <a name="call"/>Call me</a>
+      </div>
+      </div>
+    </main>
+    <footer id="bottom">
+      <p>**This is just a fake portfolio. All the projects and contact details given are not real.<span>© Created for Simon Muthungu</span></p>
+    </footer>
+  </body>
+</html>
