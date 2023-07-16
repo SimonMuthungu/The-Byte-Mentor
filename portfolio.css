@@ -1,6 +1,6 @@
 #welcome-section {
   background-color: lightblue;
-  height: 100vh;
+  height: 20vh;
   text-align: center;
 }
 #desc {
@@ -13,8 +13,8 @@
 }
 .bottom {
   background-color: Darkcyan;
-  height: 400px;
-  border-bottom: 5px;
+  height: 250px;
+  padding: 5px;
   text-align: center;
 
 }
