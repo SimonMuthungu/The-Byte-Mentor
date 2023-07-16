@@ -7,14 +7,16 @@
   color: DarkSlateGrey
 }
 .project-images {
+  margin: 0;
   width: 100%;
   max-width: 50px;
   height: 30px;
 }
 .bottom {
   background-color: Darkcyan;
-  height: 50px;
-  padding: 5px;
+  width: 500;
+  height: 500px;
+  padding: 100px;
   text-align: center;
 
 }
@@ -22,10 +24,8 @@ footer {
   background-color: Olivedrab;
   height: 100px
 }
-#navbar {
-  position: fixed;
-  top: 10;
-  right: 10
+body {
+  margin: 0;
 }
 @media (min-width: 500px) {
   
