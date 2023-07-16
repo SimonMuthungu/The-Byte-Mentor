@@ -1,7 +1,9 @@
-#welcome-section {
-  background-color: lightblue;
-  height: 20vh;
+header {
   text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
 }
 #desc {
   color: DarkSlateGrey
