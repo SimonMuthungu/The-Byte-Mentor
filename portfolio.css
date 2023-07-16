@@ -9,10 +9,16 @@ header {
   color: DarkSlateGrey
 }
 .project-images {
-  margin: 0;
   width: 100%;
-  max-width: 50px;
   height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .bottom {
   background-color: Darkcyan;
